@@ -86,12 +86,13 @@ namespace NetCoreYouTube.Controllers
                     status = "error",
                     message = "Token is not valid!"
                 };
-
-                return new
-                {
-                    status = "success",
-                    message = "cliente eliminado"
-                };
             }
+
+            return new
+            {
+                status = "success",
+                message = "cliente eliminado"
+            };
         }
     }
+}
